@@ -33,7 +33,7 @@ created_at TIMESTAMP DEFAULT NOW(),
 expires_at TIMESTAMP
 );
 ```
-6. Сбилдить и main в классе App. 
+6. Сбилдить и запустить main в классе App. 
 7. Для корректной работы необходима **Java версии 21 или выше** и Gradle.
 
 ## Как пользоваться приложением
