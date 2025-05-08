@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.postgresql:postgresql:42.7.5'
+    implementation 'org.slf4j:slf4j-api:2.0.17'
+    implementation 'ch.qos.logback:logback-classic:1.5.18'
+    implementation 'org.json:json:20250107'
+    implementation 'com.auth0:java-jwt:4.5.0'
+    implementation 'com.sun.mail:javax.mail:1.6.2'
+    implementation 'org.opensmpp:opensmpp-core:3.0.2'
+    implementation 'org.apache.httpcomponents:httpclient:4.5.13'
+}
